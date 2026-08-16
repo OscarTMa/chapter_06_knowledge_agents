@@ -35,11 +35,13 @@ flowchart TD
     E2 --> Output2[Datos Listos para ERP / CRM / BD]
     E3 --> Output3[Reporte de Síntesis y Brechas de Conocimiento]
 ```
+---
+## Comparativa de los Agentes
 
-Comparativa de los Agentes
-
-#AgenteRol PrincipalNivel de CapacidadTecnologías Clave
-04Knowledge Retrieval AgentConectar LLMs con fuentes vivas mitigando alucinaciones (RAG denso)Nivel 2–3 (Tool-Using / Planning)LangChain LCEL, FAISS, Hugging Face, Google Gemini05Document Intelligence AgentExtraer datos tabulares y campos clave de documentos no estructuradosNivel 2–3 (Tool-Using / Planning)Tesseract OCR, Pillow, RapidFuzz06Scientific Research AgentEscaneo masivo, agrupamiento semántico y síntesis de literaturaNivel 4 (Learning & Discovery)arXiv API, SentenceTransformers, Scikit-Learn, PandasEstructura del RepositorioPlaintext
+| # | Agente | Rol Principal | Nivel de Capacidad | Tecnologías Clave |
+| 04 | |Knowledge Retrieval AgentConectar LLMs con fuentes vivas mitigando alucinaciones (RAG denso)Nivel 2–3 (Tool-Using / Planning)LangChain LCEL, FAISS, Hugging Face, Google Gemini
+| 05 |Document Intelligence AgentExtraer datos tabulares y campos clave de documentos no estructuradosNivel 2–3 (Tool-Using / Planning)Tesseract OCR, Pillow, RapidFuzz
+| 06 | Scientific Research AgentEscaneo masivo, agrupamiento semántico y síntesis de literaturaNivel 4 (Learning & Discovery)arXiv API, SentenceTransformers, Scikit-Learn, PandasEstructura del RepositorioPlaintext
 
 chapter_06_knowledge_agents/
 ├── .env.example
