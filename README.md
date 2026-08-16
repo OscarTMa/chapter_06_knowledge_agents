@@ -44,6 +44,7 @@ flowchart TD
 | **05** | **Document Intelligence Agent** | Extraer datos tabulares y campos clave de documentos no estructurados|Nivel 2–3 (Tool-Using / Planning)|Tesseract OCR, Pillow, RapidFuzz
 | **06** | **Scientific Research Agent** | Escaneo masivo, agrupamiento semántico y síntesis de literatura|Nivel 4 (Learning & Discovery)|arXiv API, SentenceTransformers, Scikit-Learn, PandasEstructura del RepositorioPlaintext
 
+```
 chapter_06_knowledge_agents/
 ├── .env.example
 ├── .gitignore
@@ -61,8 +62,9 @@ chapter_06_knowledge_agents/
 └── 06_scientific_research_agent/
     ├── agent.py
     └── main.py
+```
 
-Requisitos del Sistema y Configuración
+## Requisitos del Sistema y Configuración
 
 1. Dependencias del Sistema Operativo (Linux / Ubuntu)Para el motor de OCR del Agente 05:Bashsudo apt update
 sudo apt install -y tesseract-ocr poppler-utils
