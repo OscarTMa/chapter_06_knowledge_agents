@@ -51,7 +51,6 @@ chapter_06_knowledge_agents/
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
-
 ├── README.md
 ├── 04_knowledge_retrieval_agent/
 │   ├── docs/
@@ -68,26 +67,49 @@ chapter_06_knowledge_agents/
 
 ## Requisitos del Sistema y Configuración
 
-1. Dependencias del Sistema Operativo (Linux / Ubuntu)Para el motor de OCR del Agente 05:Bashsudo apt update
-sudo apt install -y tesseract-ocr poppler-utils
+1. Dependencias del Sistema Operativo (Linux / Ubuntu)
+Para el motor de OCR del Agente 05:Bashsudo apt update
 
-2. Configuración del Entorno Virtual PythonBashpython3 -m venv .venv
+```bash
+sudo apt install -y tesseract-ocr poppler-utils
+```
+
+2. Configuración del Entorno Virtual
+```bash
+PythonBashpython3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+3. Variables de Entorno
+Copia el archivo .env.example a .env y configura tu clave de API:
 
-3. Variables de EntornoCopia el archivo .env.example a .env y configura tu clave de API:Bashcp .env.example .env
-Contenido del .env:Extrait de codeGOOGLE_API_KEY="tu_google_gemini_api_key"
-Ejecución de Pruebas
+```Bash
+cp .env.example .env
+```
 
-Agente 04 (Knowledge Retrieval):Bashpython
+```bash
+Contenido del .env:
+Extrait de code
 
-04_knowledge_retrieval_agent/main.py
+GOOGLE_API_KEY="tu_google_gemini_api_key"
+```
 
-Agente 05 (Document Intelligence):Bashpython 
+## Ejecución de Pruebas
 
-05_document_intelligence_agent/main.py
+**Agente 04 (Knowledge Retrieval):**
 
-Agente 06 (Scientific Research):Bashpython 
+```Bash
+python 04_knowledge_retrieval_agent/main.py
+```
 
-06_scientific_research_agent/main.py
+**Agente 05 (Document Intelligence):**
+```bash
+python 05_document_intelligence_agent/main.py
+```
+
+**Agente 06 (Scientific Research):**
+```Bash
+python 06_scientific_research_agent/main.py
+```
+
