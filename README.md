@@ -44,6 +44,8 @@ flowchart TD
 | **05** | **Document Intelligence Agent** | Extraer datos tabulares y campos clave de documentos no estructurados|Nivel 2–3 (Tool-Using / Planning)|Tesseract OCR, Pillow, RapidFuzz
 | **06** | **Scientific Research Agent** | Escaneo masivo, agrupamiento semántico y síntesis de literatura|Nivel 4 (Learning & Discovery)|arXiv API, SentenceTransformers, Scikit-Learn, PandasEstructura del RepositorioPlaintext
 
+
+## Estructura del Repositorio
 ```
 chapter_06_knowledge_agents/
 ├── .env.example
