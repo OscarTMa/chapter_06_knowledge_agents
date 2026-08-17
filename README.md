@@ -1,4 +1,4 @@
-# Chapter 06: Information Retrieval & Knowledge Agents
+#  Chapter 06: Information Retrieval & Knowledge Agents
 
 Este módulo implementa la tríada de agentes de conocimiento descritos en el libro *30 Agents Every AI Engineer Must Build* (Capítulo 6). Estos agentes transforman modelos de lenguaje estáticos en sistemas fundamentados en evidencia empírica, estructuración de documentos y síntesis científica a gran escala.
 
